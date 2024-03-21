@@ -1,0 +1,255 @@
+/*--Header & Navigation Bar--*/
+.site-header{
+    background-color: #FCF4A3;
+}
+
+.navbar-nav{
+    font-size: 1.3em;
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+    
+}
+.navbar-brand{
+    font-size: 2em;
+    height: 70px;
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+
+}
+
+/*--About Us First Row--*/
+.page-section-title-about-us{
+    font-size: 36px;
+    font-family: "Anek Gurmukhi", sans-serif;
+}
+
+.page-section-text-about-us{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 32px;
+    font-weight: 200;
+    font-family: "Barlow", sans-serif;
+}
+
+@media (max-width: 840px)
+{
+    .page-section-text-about-us{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+}
+
+
+
+/*--Map iFrame of Melrose, Scotland--*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:400px;
+    width:100%;
+    position:absolute;
+}
+
+
+/*--About Us First Row--*/
+#sectionTwoAboutUs{
+    background-color: #FCF4A3;
+}
+.box-image{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height:400px;
+    width:80%;
+}
+.page-section-text-about-us-two{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: "Barlow", sans-serif;
+}
+
+@media (max-width: 840px)
+{
+    .page-section-text-about-us-two, .box-image{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+}
+
+/* Style inputs with type="text", select elements and textareas */
+
+#columnOne{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+    
+}
+#columnTwo{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#columnOneBorder{
+    border-right: 2px solid #000000;
+}
+
+#columnTwoBorder{
+    border-left: 2px solid #000000;
+}
+
+@media (max-width: 840px)
+{
+    #columnOneBorder, #columnTwoBorder{
+        border: none;
+    }
+    
+    #columnOneBorder{
+        border-bottom: 2px solid #000000;
+    }
+}
+
+.page-section-title-contact-us{
+    font-size: 36px;
+    font-family: "Anek Gurmukhi", sans-serif;
+}
+
+.submit-form{
+    text-align: center;
+}
+
+.page-section-title-newsletter{
+    font-size: 36px;
+    font-family: "Anek Gurmukhi", sans-serif;
+}
+
+.page-section-text-newsletter{
+    font-size: 28px;
+    font-family: "Barlow", sans-serif;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    background-color: #f2f2f2;
+    padding: 5px;
+    
+  
+}
+.box{
+    border-style:double;
+    border-color:#f8d568;
+    background-color: #fff;
+}
+
+.images{
+    width:  250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.btn{
+    background-color:purple;
+    color: #fff;
+    
+}
+.btn:hover{
+    background-color: #000;
+}
+
+
+
+
+
+
+/*------Footer-----*/
+    
+/*--Page Footer--*/
+.page-footer{
+    background-color: #FCF4A3;
+}
+
+.page-section-title-copyright{
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.page-section-text-copyright{
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+}
+
+.layout-social .layout-icon{
+    font-size: 3em;
+    text-align: center;
+    justify-content: center;
+}
+    
+ul.social{
+    display:block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align: center;
+}
+ul.social li{
+    font-size: 1em;
+    display:inline;
+    padding: 0 2%;
+}
+ul.social li a{
+    color:#666;
+}    
+
+    
+ul.social li.facebook a:hover{color: rgb(59,89,152);}
+ul.social li.twitter a:hover{color: rgb(0,172,237);}
+ul.social li.youtube a:hover{color: rgb(187,0,0);}
+    
+    

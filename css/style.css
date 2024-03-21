@@ -1,0 +1,296 @@
+/*--Header & Navigation Bar--*/
+.site-header{
+    background: #FCF4A3;
+}
+
+.navbar-nav{
+    font-size: 1.3em;
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+    
+}
+.navbar-brand{
+    font-size: 2em;
+    height: 70px;
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+
+}
+
+/*--Carousel Item and Image Styling--*/
+
+.carousel-item {
+    height: 500px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: inherit;
+}
+
+#carouselImage{
+    max-width: 100%;
+
+}
+
+/*--Starter Text on Home Page--*/
+.page-section-title-queen-bee{
+    font-size: 32px;
+    font-family: "Anek Gurmukhi", sans-serif;
+    background-color: #FFFFFF;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+    
+}
+.page-section-text-box{
+    font-size: 26px;
+    font-weight: 200;
+    width: 100%;
+    font-family: "Barlow", sans-serif;
+}
+
+/*--Second Text on Home Page--*/
+.page-section-title-queen-bee-two{
+    font-size: 32px;
+    font-weight: 200;
+    font-family: "Anek Gurmukhi", sans-serif;
+    background-color: #FFFFFF;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+
+/*--Section Two with links to Three Pages--*/
+#sectionTwo{
+    background-color: #FCF4A3;
+}
+
+/*--Bee Keeping Style--*/
+#imageOneGallery{
+    margin-top: 40px;
+    border: 5px solid #333333;
+    border-radius: 10px;
+}
+
+@media (max-width: 1240px)
+{
+    #imageOneGallery, #imageTwoNewsletter, #imageThreeShop{
+        height: 250px;
+        width: 300px;
+    }
+    
+}
+
+.page-section-title-gallery{
+    font-family: "Anek Gurmukhi", sans-serif;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.page-section-text-gallery{
+    font-family: "Barlow", sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#buttonOneGallery{
+    margin-bottom: 40px;
+    background-color: #333333;
+    border-radius: 10px;
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+    font-size: 20px;
+    
+}
+
+#buttonOneGallery:hover{
+    background-color: #666666;
+}
+
+/*--Newsletter Styles--*/
+#imageTwoNewsletter{
+    margin-top: 40px;
+    border: 5px solid #333333;
+    border-radius: 10px;
+}
+
+.page-section-title-newsletter{
+    font-family: "Anek Gurmukhi", sans-serif;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.page-section-text-newsletter{
+    font-family: "Barlow", sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#buttonTwoNewsletter{
+    margin-bottom: 40px;
+    background-color: #333333;
+    border-radius: 10px;
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+    font-size: 20px;
+}
+
+#buttonTwoNewsletter:hover{
+    background-color: #666666;
+    
+}
+
+/*--Shop Styles--*/
+#imageThreeShop{
+    margin-top: 40px;
+    border: 5px solid #333333;
+    border-radius: 10px;
+    
+}
+
+.page-section-title-shop{
+    font-family: "Anek Gurmukhi", sans-serif;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.page-section-text-shop{
+    font-family: "Barlow", sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#buttonThreeShop{
+    margin-bottom: 40px;
+    background-color: #333333;
+    border-radius: 10px;
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+    font-size: 20px;
+}
+
+#buttonThreeShop:hover{
+    background-color: #666666;
+}
+
+/*--Background Image with Bee Keeping Styles--*/
+#backgroundImage{
+    background-image: url(/images/imageBackgroundBlurredBrightness.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.page-section-title-bee-keeping{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #FFFFFF;
+    font-family: "Anek Gurmukhi", sans-serif;
+    font-size: 34px;
+}
+
+.page-section-text-bee-keeping{
+    font-family: "Barlow", sans-serif;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #FFFFFF;
+}
+
+#buttonBeeCourse{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-color: #333333;
+    border-radius: 10px;
+    border-color: #333333;
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+    font-size: 20px;
+    overflow:inherit;
+}
+
+#buttonBeeCourse:hover{
+    background-color: #666666;
+    
+}
+
+/*--Contact Details of Queen Bee Café--*/
+.page-section-title-contact{
+    font-family: "Anek Gurmukhi", sans-serif;
+    font-size: 34px;
+    margin-top: 40px;
+}
+
+.page-section-text-contact{
+    font-family: "Barlow", sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.page-section-title-hours{
+    font-family: "Anek Gurmukhi", sans-serif;
+    font-size: 34px;
+    margin-top: 40px;
+}
+
+.page-section-text-hours{
+    font-family: "Barlow", sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+@media (max-width: 1240px)
+{
+    #queenBeeLogo{
+        display: none;
+    }
+}
+
+
+/*--Page Footer--*/
+.page-footer{
+    background-color: #FCF4A3;
+}
+
+.page-section-title-copyright{
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.page-section-text-copyright{
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+}
+
+.layout-social .layout-icon{
+    font-size: 3em;
+    text-align: center;
+    justify-content: center;
+}
+    
+ul.social{
+    display:block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align: center;
+}
+ul.social li{
+    font-size: 1em;
+    display:inline;
+    padding: 0 2%;
+}
+ul.social li a{
+    color:#666;
+}    
+
+    
+ul.social li.facebook a:hover{color: rgb(59,89,152);}
+ul.social li.twitter a:hover{color: rgb(0,172,237);}
+ul.social li.youtube a:hover{color: rgb(187,0,0);}
+    

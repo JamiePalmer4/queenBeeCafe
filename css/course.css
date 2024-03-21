@@ -1,0 +1,137 @@
+/*--Header & Navigation Bar--*/
+.site-header{
+    background-color: #FCF4A3;
+}
+
+.navbar-nav{
+    font-size: 1.3em;
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+    
+}
+.navbar-brand{
+    font-size: 2em;
+    height: 70px;
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+
+}
+
+/*--Bee Keeping First Section--*/
+
+.page-section-title-course{
+    font-size: 36px;
+    font-family: "Anek Gurmukhi", sans-serif;
+    margin-top: 60px;
+}
+
+.page-section-text-course{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 28px;
+    font-family: "Barlow", sans-serif;
+}
+
+.honey-hive{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 500px;
+    border-radius: 2px;
+    height: 300px;
+}
+
+/*--Bee Keeping Second Section--*/
+#sectionTwo{
+    background-color: #FCF4A3;
+}
+.page-section-text-course-two{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 28px;
+    font-family: "Barlow", sans-serif;
+}
+
+.bee-flower{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 500px;
+    border-radius: 2px;
+    height: 300px;
+}
+
+/*--Bee Keeping Video--*/
+.page-section-title-video{
+    font-size: 36px;
+    font-family: "Anek Gurmukhi", sans-serif;
+    margin-top: 60px;   
+}
+
+.bee-video{
+    max-width: 100%;
+    overflow:hidden;
+    width: 1000px;
+    height: 600px;
+}
+
+@media (max-width: 800px)
+{
+    .bee-video{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+.container-bee{
+    display: flex;
+    justify-content: center;
+    align-items: center''
+}
+
+/*--Page Footer--*/
+.page-footer{
+    background-color: #FCF4A3;
+}
+
+.page-section-title-copyright{
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.page-section-text-copyright{
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+}
+
+.layout-social .layout-icon{
+    font-size: 3em;
+    text-align: center;
+    justify-content: center;
+}
+    
+ul.social{
+    display:block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align: center;
+}
+ul.social li{
+    font-size: 1em;
+    display:inline;
+    padding: 0 2%;
+}
+ul.social li a{
+    color:#666;
+}    
+
+    
+ul.social li.facebook a:hover{color: rgb(59,89,152);}
+ul.social li.twitter a:hover{color: rgb(0,172,237);}
+ul.social li.youtube a:hover{color: rgb(187,0,0);}
+    

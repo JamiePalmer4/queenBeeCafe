@@ -1,0 +1,125 @@
+/*--Header & Navigation Bar--*/
+.site-header{
+    background-color: #FCF4A3;
+}
+
+.navbar-nav{
+    font-size: 1.3em;
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+    
+}
+.navbar-brand{
+    font-size: 2em;
+    height: 70px;
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+
+}
+
+/*--Shop First Row--*/
+.page-section-title-shop{
+    font-size: 36px;
+    font-family: "Anek Gurmukhi", sans-serif;
+    margin-top: 40px;
+}
+
+.page-section-text-shop{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 28px;
+    font-family: "Barlow", sans-serif;
+}
+
+@media (max-width: 840px)
+{
+    .page-section-text-about-us{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+}
+
+/*--Shop Items--*/
+.card-img-top{
+    width:  300px;
+    height: 250px;
+    border: 1px solid #000000;
+}
+
+.card{
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.card-body{
+    height: 100px;
+    width: 250px;
+    font-family: "Barlow", sans-serif;
+    margin-left: 20px;    
+}
+
+
+/*--Menu Section--*/
+
+.page-section-title-menu{
+    font-size: 36px;
+    font-family: "Anek Gurmukhi", sans-serif;
+    margin-top: 40px;
+}
+
+
+#threeImages{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 450px;
+    width: auto;
+}
+
+
+    
+/*--Page Footer--*/
+.page-footer{
+    background-color: #FCF4A3;
+}
+
+.page-section-title-copyright{
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.page-section-text-copyright{
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+}
+
+.layout-social .layout-icon{
+    font-size: 3em;
+    text-align: center;
+    justify-content: center;
+}
+    
+ul.social{
+    display:block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align: center;
+}
+ul.social li{
+    font-size: 1em;
+    display:inline;
+    padding: 0 2%;
+}
+ul.social li a{
+    color:#666;
+}    
+
+    
+ul.social li.facebook a:hover{color: rgb(59,89,152);}
+ul.social li.twitter a:hover{color: rgb(0,172,237);}
+ul.social li.youtube a:hover{color: rgb(187,0,0);}
+    
+    
